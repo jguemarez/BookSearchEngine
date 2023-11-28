@@ -4,7 +4,7 @@
 
 ## Description
 
-  The Social Network API offers the following functionality:
+
 
  1.Users can be created by adding a username and email. Those fields can be modified and they can be deleted from the database at any time.
 
