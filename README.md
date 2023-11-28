@@ -4,8 +4,6 @@
 
 ## Description
 
-
-
  1.Users can be created by adding a username and email. Those fields can be modified and they can be deleted from the database at any time.
 
  2.Users can create, modify, and delete thoughts.
