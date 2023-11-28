@@ -51,64 +51,6 @@ With the purpose of showing functionality, a module with functions and data arra
 
 ## Usage
 
-Disclaimer: We test the routes using the Insomnia GUI. Since the sample data is randomly generated, the retrieved documents will in general differ each time the database is re-seeded.
-
-1.When you test `/api/users` in order to get all available users:
-
-![GET all users](assets/SocNet1.png)
-
-2.When you test `/api/users/:userId` (substituting an actual _id for the route parameter) to get a single user document:
-
-![GET a single user](assets/SocNet2.png)
-
-3.When you create a new user passing an appropriate JSON payload to the route-handler at `/api/users`:
-
-![POST a new user](assets/SocNet3.png)
-
-4.When you update a user passing an appropriate JSON payload to the route-handler at `/api/users/:userId`:
-
-![UPDATE a user](assets/SocNet4.png)
-
-5.When you delete a user at `/api/users/:userId`. Note that the thoughts associated to the user are also deleted:
-
-![DELETE a user](assets/SocNet5.png)
-
-6.It is possible to add a new friend for a user at `/api/users/:userId/friends/:friendId` by substituting the appropriate '_id' strings in the route parameters:
-
-![Adding a new friend for a user](assets/SocNet6.png)
-
-7.You can delete a friend from a given user's array by passing the appropriate '_id' strings through the route parameters in `/api/users/:userId/friends/:friendId`:
-
-![Deleting a friend from a user](assets/SocNet7.png)
-
-8.Retrieving all thought-related documents from the database by making a GET request to `/api/thoughts` :
-
-![GET all thoughts](assets/SocNet8.png)
-
-9.Retrieving a single thought-related document by substituting the appropriate '_id' string for the route parameter in `/api/thoughts/:thoughtId`:
-
-![GET a single thought](assets/SocNet9.png)
-
-10.Generating a new document in the 'thoughts' collection by passing an adequate JSON payload at `/api/thoughts`. The newly created thought is added to the users' 'thoughts' array:
-
-![POST a new thought](assets/SocNet10.png)
-
-11.Updating a single thought by passing the required data in the req.body and the req.params using the `/api/thoughts/:thoughtId` endpoint :
-
-![UPDATE a single thought](assets/SocNet11.png)
-
-12.Deleting a single thought by its '_id' string using the `/api/thoughts/:thoughtId` endpoint. Note that the document of the user who authored the thought gets updated :
-
-![DELETE a thought](assets/SocNet12.png)
-
-13.By passing data in the body of the request (in accordance to the reactionSchema) and using the endpoint `/api/thoughts/:thoughtId/reactions`, you can add a new reaction to an existing thought:
-
-![Adding a reaction to a thought](assets/SocNet13.png)
-
-14.By passing the appropriate '_id' and 'reactionId' strings through the route parameters in `/api/thoughts/:thoughtId/reactions/:reactionId`, it is possible to delete a reaction to a thought:
-
-![Deleting a reaction to a thought](assets/SocNet14.png)
-
 ## Credits
 
 This API is of the sole authorship of Jonathan Maldonado Guemarez.
