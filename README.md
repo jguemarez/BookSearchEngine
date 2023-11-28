@@ -4,7 +4,7 @@
 
 ## Description
 
- This project offers a simple and lightweight (but scalable) back-end for a possible Social Network app. By carefully defining the basic routes that such an API would possess, we give interested developers the flexibility of adding additional routes and implementing the front end that will serve them best. We divide the routes into two classes, each corresponding to a Mongoose ODM model. The models in question are the User and Thought model. There is also a reactionSchema that gives shape to the reactions subdocuments that are associated to the thoughts documents. The Social Network API offers the following functionality:
+  The Social Network API offers the following functionality:
 
  1.Users can be created by adding a username and email. Those fields can be modified and they can be deleted from the database at any time.
 
