@@ -1,7 +1,7 @@
 {
-    "name": "googlebooks-app",
+    "name": "book-search-engine",
     "version": "1.0.0",
-    "description": "",
+    "description": "A refactored full stack application using the MERN stack together with GraphQL in order to allow authenticated users to search for books and saving data (including their cover images) about them.",
     "main": "server/server.js",
     "scripts": {
         "start": "node server/server.js",
@@ -10,9 +10,9 @@
         "build": "cd client && npm run build",
         "render-build": "npm install && npm run build"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": ["MERN", "GraphQL", "Apollo", "MongoDB", "Mongoose", "search-engine", "React", "Express", "Node", "Google Books API", "books", "reading"],
+    "author": "Jonathan Maldonado Guemarez(refactoring), Xandromus(source code)",
+    "license": "MIT",
     "devDependencies": {
         "concurrently": "^5.1.0"
     }
